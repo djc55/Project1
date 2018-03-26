@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Page</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin" action = "show.php" method="post">
+        <h2 class="form-signin-heading">Please Sign In</h2>
+        <input type="text" id="inputFirstName" class="form-control" placeholder="Enter First Name" name="reg_fname" required />
+        <input type="text" id="inputLastName" class="form-control" placeholder="Enter Last Name" name="reg_lname" required />
+        <input type="text" id="inputEmail" class="form-control" placeholder="Enter E-mail Address" name="reg_email" required />
+        <input type="text" id="inputPhoneNumber" class="form-control" placeholder="Enter Phone Number" name="reg_pnumber" required />
+        <input type="text" id="inputBday" class="form-control" placeholder="Enter Birthday" name="reg_bday" required />
+        <input type="text" id="inputGender" class="form-control" placeholder="Enter Gender" name="reg_gender" required />
+        <input type="password" id="inputPassword" class="form-control" placeholder="Enter Password" name="reg_password" required />
+        <br />
+        <button class="btn btn-lg btn-primary btn-block" type="submit" id="submitButton">Sign in</button>
+        <button class="special"> <a href='login.html'>Already Registered?</a> </button>
+
+
+      </form>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
